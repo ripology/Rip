@@ -1,0 +1,164 @@
+//function perimeter(){
+ // return 5+8;
+//}
+//const answer= perimeter();
+//onsole.log(answer);
+
+//function perimeter2(width,height){
+  //return (width+height)*2;
+//}
+//var answer= perimeter2(9,10);
+//console.log(answer);
+/*
+function tip(x,y){
+ return (x*y).toFixed(2);
+}
+var check= tip(40,.15);
+console.log(check);
+
+function faherenheit(x){
+  return (x-32)*5/9;
+}
+var celsius= faherenheit(32)
+console.log(celsius);
+
+function celsius(x){
+  return (x*9/5)+32;
+}
+var f= celsius(0);
+console.log(f);
+
+*/
+/*
+function sum(x){
+  var myString= String(x);
+  var array= [];
+  for (let k=0; k < myString.length; k++){
+    var temp = Number(myString[k]);
+    array.push(temp);
+    
+  };
+  for (let k=0; k < array.length; k++)
+  return array
+}; 
+ 
+ console.log(sum(998))
+
+*/
+ 
+ 
+/*  
+function seconds(x){
+  return (x*365);
+}
+var years=seconds(86400);
+console.log(years);
+
+
+function mean(x,y,z,a,b){
+  return (x+y)+(z+a)+b;
+}
+var sum= mean(1,2,3,4,5)/5;
+console.log(sum)
+*/
+/*
+function random(){
+}
+  const months= [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ];
+var time = months[Math.floor(Math.random()*12)+1]
+
+console.log(time)
+*/
+/*
+const myMap = (arr, action) => {
+    for (i = 0; i < arr.length; i++){
+      arr[i] = action(arr[i])
+    }
+  return arr
+}
+console.log(myMap([1,2,3], (item) =>{
+  return item + 1
+}))
+*/
+/*
+if (x = "8008"){
+  console.log(true)
+}
+else{
+  console.log(false)
+}
+var x = "8008"
+*/
+/*
+function isEven(value) {
+	if (value%2 == 0)
+		return true;
+	else
+		return false;
+}
+console.log(isEven(5))
+*/
+/*
+function isOdd(value) {
+  if (value%2 == 1)
+    return true;
+  else
+    return false;
+}
+console.log(isOdd(5))
+*/
+/*
+function isThree(value) {
+  if (value%3 == 0)
+    return true;
+  else
+    return false;
+}
+console.log(isThree(7))
+*/
+/*
+function isFive(value) {
+  if (value%5 == 0)
+    return true;
+  else
+    return false;
+}
+console.log(isFive(20,5))
+*/
+/*
+function array(x){
+  return Array.from(arguments)
+};
+var result = array(1,2,3)
+console.log(Math.min(...result))
+*/
+
+const array = [];
+function result(x){
+const myString= String(x);
+  for (let k=0; k < myString.length; k++){
+    var temp = Number(myString[k]);
+    array.push(temp);
+    
+  };
+  for (let k=0; k < array.length; k++){
+  return array
+  }
+  return x.sort
+}
+
+console.log(result(639))
+
